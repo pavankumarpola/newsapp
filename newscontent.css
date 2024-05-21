@@ -1,0 +1,21 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(80, 111, 237);
+}
+#pavan:hover {
+    border-left: 10px solid black;
+}
+
+.header{
+    color: bisque;
+}
+#mainbody:hover{
+    cursor: pointer;
+}
+
+
+

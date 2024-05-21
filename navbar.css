@@ -1,0 +1,25 @@
+
+.nav-item{
+    padding: 20px;
+    font-size: large;
+    font-weight: 500;
+   
+    
+  }
+  .nav-item:hover{
+    font-size: x-large;
+    text-decoration: none;
+  }
+  @keyframes pavan {
+    0% { transform: translateY(0); }
+    50% { transform: translateX(-15px); }
+    100% { transform: translateY(0); }
+  }
+  .nav-item:hover{
+    animation: pavan 0.5s ease-in-out infinite;
+    font-size: x-large;
+  }
+  #navbarSupportedContent:hover{
+    color: black;
+  }
+  
